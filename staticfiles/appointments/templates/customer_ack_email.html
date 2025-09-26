@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .email-box { border: 2px solid gold; padding: 20px; border-radius: 10px; background: #fffbea; font-family: Arial, sans-serif; }
+    h2 { color: goldenrod; }
+  </style>
+</head>
+<body>
+  <div class="email-box">
+    <h2>Appointment Request Received ✅</h2>
+    <p>Hello {{ appointment.name }},</p>
+    <p>We received your request for <b>{{ appointment.service }}</b> on <b>{{ appointment.date }}</b> at <b>{{ appointment.time }}</b>.</p>
+    <p>We’ll confirm it shortly. Thank you!</p>
+  </div>
+</body>
+</html>

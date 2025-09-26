@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .email-box { border: 2px solid red; padding: 20px; border-radius: 10px; background: #ffeaea; font-family: Arial, sans-serif; }
+    h2 { color: red; }
+  </style>
+</head>
+<body>
+  <div class="email-box">
+    <h2>Appointment Rejected ❌</h2>
+    <p>You have rejected the appointment for:</p>
+    <p><b>{{ appointment.name }}</b> ({{ appointment.phone }})</p>
+    <p>Service: <b>{{ appointment.service }}</b></p>
+    <p>Date: <b>{{ appointment.date }}</b> | Time: <b>{{ appointment.time }}</b></p>
+  </div>
+</body>
+</html>

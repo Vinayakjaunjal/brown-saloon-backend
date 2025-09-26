@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .email-box { border: 2px solid gold; padding: 20px; border-radius: 10px; background: #fffbea; font-family: Arial, sans-serif; }
+    h2 { color: green; }
+  </style>
+</head>
+<body>
+  <div class="email-box">
+    <h2>Appointment Confirmed ✅</h2>
+    <p>Hello {{ appointment.name }},</p>
+    <p>Your appointment for <b>{{ appointment.service }}</b> is confirmed on <b>{{ appointment.date }}</b> at <b>{{ appointment.time }}</b>.</p>
+    <p>We look forward to serving you!</p>
+  </div>
+</body>
+</html>
